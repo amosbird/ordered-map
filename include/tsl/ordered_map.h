@@ -73,7 +73,7 @@ template<class Key,
          class KeyEqual = std::equal_to<Key>,
          class Allocator = std::allocator<std::pair<Key, T>>,
          class ValueTypeContainer = std::deque<std::pair<Key, T>, Allocator>,
-         class IndexType = std::uint_least32_t>
+         class IndexType = std::size_t>
 class ordered_map {
 private:
     template<typename U>

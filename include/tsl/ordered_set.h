@@ -71,7 +71,7 @@ template<class Key,
          class KeyEqual = std::equal_to<Key>,
          class Allocator = std::allocator<Key>,
          class ValueTypeContainer = std::deque<Key, Allocator>,
-         class IndexType = std::uint_least32_t>
+         class IndexType = std::size_t>
 class ordered_set {
 private:
     template<typename U>
